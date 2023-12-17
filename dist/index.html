@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quadro Mágico</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.png" />
+  </head>
+  <body>
+    <div class="settings">
+      <input type="color" id="choice-color" />
+      <button class="buttons" id="btn-color">Cor</button>
+      <button class="buttons" id="btn-eraser">Borracha</button>
+      <button class="buttons" id="btn-clean">Apagar</button>
+      <label for="" id="show-size">16 x 16</label>
+      <input id="number-frames" type="range" value="16" min="1" max="64" />
+    </div>
+    <div class="board"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
